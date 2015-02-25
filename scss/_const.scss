@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@import "compass";
+
+@mixin user-select($property) {
+  -webkit-touch-callout: $property;
+  -webkit-user-select: $property;
+  -khtml-user-select: $property;
+  -moz-user-select: $property;
+  -ms-user-select: $property;
+  user-select: $property;
+}

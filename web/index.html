@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator Site</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="calc calc_main">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="well well_result js-result">0</div>
+                </div>
+                <div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-digit">7</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-digit">8</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-digit">9</div>
+                    </div>
+                    <div class="col-xs-3 ">
+                        <div class="well well_digits js-clear"><span class="glyphicon glyphicon glyphicon-erase"></span></div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-digit">4</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-digit">5</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-digit">6</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-operator">+</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-digit">1</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-digit">2</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-digit">3</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-operator">-</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-digit">0</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-digit">.</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-operator">&divide;</div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="well well_digits js-operator">&times;</div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="well well_digits js-enter">=</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>© Vitalij Karpusa <a href="#">http://www.karpusa.lv</a></p>
+        </footer>
+    </div>
+
+    <script src="js/require.min.js"></script>
+    <script>
+        require.config({
+            baseUrl: 'js/',
+            waitSeconds: 60,
+        });
+        require(['common']);
+    </script>
+</body>
+</html>

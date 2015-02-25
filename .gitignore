@@ -1,0 +1,17 @@
+/cache/*
+/node_modules/*
+/vendor/*
+/composer.phar
+.idea/
+*.sublime-*
+.DS_Store
+*~
+*.map
+/.sass-cache
+none
+npm-debug.log
+/nbproject/private/
+/nbproject
+/web/css/*
+/web/fonts/*
+/web/js/*

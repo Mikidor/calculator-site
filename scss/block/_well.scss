@@ -1,0 +1,19 @@
+.well {
+    @include user-select(none);
+}
+.well_digits {
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 0;
+    &:hover {
+        @include gradient-vertical($start-color: darken(#E6E6E6, 5%), $end-color: #E6E6E6);
+    }
+}
+.well_result {
+    text-align: right;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 0;
+}
